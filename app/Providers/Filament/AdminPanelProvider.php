@@ -30,9 +30,9 @@ class AdminPanelProvider extends PanelProvider
             ->colors([
                 'primary' => Color::Amber,
             ])
-            ->brandLogo(asset('Unified New Logo.png'))
+            ->brandLogo(asset('Pramukh New Logo.png'))
             ->brandLogoHeight('3rem')
-            ->favicon(asset('Unified New Logo.png'))
+            ->favicon(asset('Pramukh New Logo.png'))
             ->discoverResources(in: app_path('Filament/Resources'), for: 'App\\Filament\\Resources')
             ->discoverPages(in: app_path('Filament/Pages'), for: 'App\\Filament\\Pages')
             ->pages([
